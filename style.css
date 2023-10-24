@@ -1,0 +1,525 @@
+@font-face {
+    font-family: "1";
+    src: url(шрифт.ttf);
+}
+
+.bg1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height:50px;
+}
+.bg2{
+    display: inline-block;
+    background-image: url(maxresdefault.jpg);
+    position: absolute;
+    margin-top: 45px;
+    left: 0;
+    width: 100%;
+    height: 720px;
+    filter: contrast(0.8);
+    filter: brightness(30%);
+
+}
+.cont1{
+    top: 0;
+    left: 0;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+}
+.Pororo{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 2%;
+    width: 70px;
+}
+.zapis{
+    position: absolute;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+.aazapis{
+    color: darkgray;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.aazapis:hover{
+    color: white;
+    transition-duration: 0.3s;
+}
+.Aboniment{
+    position: absolute;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 15px;
+    width: 130px;
+}
+.aabonim{
+    color: darkgray;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.aabonim:hover{
+    color: white;
+    transition-duration: 0.3s;
+}
+.Magaz{
+    position: absolute;
+    display: inline;
+    margin-left: 18%;
+    margin-top: 15px;
+
+}
+.aamagaz{
+    color: darkgray;
+    text-decoration: none;
+    transition-duration: 0.3s;
+
+}
+.aamagaz:hover{
+    color: white;
+    transition-duration: 0.3s;
+}
+.Trener{
+    position: absolute;
+    display: inline;
+    margin-left: 28%;
+    margin-top: 15px;
+}
+.aatrener{
+    color: darkgray;
+    text-decoration: none;
+    transition-duration: 0.3s;
+
+}
+.aatrener:hover{
+    color: white;
+    transition-duration: 0.3s;
+}
+.SportTime{
+    text-align: center;
+    color: white;
+    text-shadow: 10px ;
+    font-size: 30px;
+}
+.kegf{
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    margin-left: 79%;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.poisk{
+    position: absolute;
+    display: inline-block;
+    width: 150px;
+    margin-left: 70%;
+    margin-top: 15px;
+    background-color: white;
+    border-color: aliceblue;
+}
+.reg{
+    display: inline-block;
+    position: absolute;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-left: 82%;
+    color: rgb(9, 135, 95);
+    background-color: rgb(147, 213, 201);
+    border: none;
+    border-radius: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top:10px;
+    padding-bottom:10px ;
+    cursor: pointer;
+}
+.signup{
+    display: inline-block;
+    position: absolute;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-left: 86%;
+    color: rgb(147, 213, 201);
+    background-color: rgb(9, 135, 95) ;
+    border: none;
+    border-radius: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top:10px;
+    padding-bottom:10px ;
+    cursor: pointer;
+}
+.inf{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 40px;
+    width: 500px;
+    font-family: "1";
+}
+.skelet{
+    position: absolute;
+    display: inline-block;
+    top: 200px;
+    left: 800px;
+    height: 500px;
+}
+.do{
+    position: absolute;
+    display: inline-block;
+    top: 600px;
+    left: 740px;
+    color: white;
+    font-size: 40px;
+}
+.posle{
+    position: absolute;
+    display: inline-block;
+    top: 600px;
+    left: 1000px;
+    color: white;
+    font-size: 40px;
+}
+.kachok{
+    position: absolute;
+    display: inline-block;
+    top: 200px;
+    left: 1100px;
+    color: white;
+    height: 500px;
+}
+.prais{
+    position: absolute;
+    display: inline-block;
+    font-size: 50px;
+    top: 750px;
+    left: 40%;
+}
+.zapisab{
+    font-style: italic;
+    position: absolute;
+    display: inline-block;
+    top: 860px;
+    left: 28%;
+    font-size: 35px;
+    color: black;
+}
+.tablisa1{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.table1{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    font-size: 25px;
+    text-align: center;
+}
+tr:first-child{
+    background-color: red;
+}
+tr:nth-child(2),
+tr:nth-child(4),
+tr:nth-child(6){
+    background-color: darkgrey;
+}
+tr:nth-child(3),
+tr:nth-child(5){
+    background-color: gainsboro;
+}
+table{
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    height: 70px;
+}
+.th, td{
+    width: 150px;
+}
+.tablisa2 tr:first-child{
+    background-color: forestgreen;
+}
+.Trenera{
+    position: absolute;
+    display: inline-block;
+    top: 1870px;
+    margin-left: 20%;
+    font-size: 40px;
+}
+.Nanashi{
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    margin-left: 7%;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 30px;
+    top: 2000px;
+    box-shadow: 4px 4px 4px #888;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.Ronni{
+    display: inline-block;
+    margin-top: 0;
+    width: 400px;
+    border-radius: 27px 27px 20% 20%;
+    height: 300px;
+}
+.Nanashi:hover{
+    transform: scale(1.1);
+}
+.nanashi{
+    margin-top: -20px;
+}
+.nnanashi{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.Dosik{
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    margin-left: 37%;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 30px;
+    top: 2000px;
+    box-shadow: 4px 4px 4px #888;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.Dosik:hover{
+    transform: scale(1.1);
+}
+.dosik{
+    margin-top: -20px;
+}
+.Billy{
+    display: inline-block;
+    margin-top: 0;
+    width: 400px;
+    border-radius: 28px 28px 20% 20%;
+    height: 300px;
+}
+.ddosik{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.Kisho{
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    margin-left: 67%;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 30px;
+    top: 2000px;
+    box-shadow: 4px 4px 4px #888;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.Arnold{
+    display: inline-block;
+    margin-top: 0;
+    border-radius: 28px 28px 20% 20%;
+    height: 300px;
+    width: 400px;
+}
+.Kisho:hover{
+    transform: scale(1.1);
+}
+.kisho{
+    margin-top: -20px;
+}
+.kkisho{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.Nura{
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    margin-left: 22%;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 30px;
+    top: 2500px;
+    box-shadow: 4px 4px 4px #888;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.nnura{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.Nura:hover{
+    transform: scale(1.1);
+}
+.Nnura{
+    display: inline-block;
+    margin-top: 0;
+    border-radius: 28px 28px 20% 20%;
+    height: 300px;
+    width: 400px;
+}
+.nura{
+    margin-top: -20px;
+}
+.Sabi{
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    margin-left: 52%;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 30px;
+    top: 2500px;
+    box-shadow: 4px 4px 4px #888;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.Sabi:hover{
+    transform: scale(1.1);
+}
+.Ssabi{
+    display: inline-block;
+    margin-top: 0;
+    border-radius: 28px 28px 20% 20%;
+    height: 300px;
+    width: 400px;
+}
+.ssabi{
+    margin-top: -10px;
+    font-size: 30px;
+}
+.sabi{
+    margin-top: -20px;
+}
+.Future{
+    position: absolute;
+    display: inline-block;
+    top: 3100px;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    height: 600px;
+}
+.Futgl{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: '1';
+    font-size: 60px;
+}
+.FutST{
+    font-size: 60px;
+    margin-top: 5px;
+    margin-left: 180px;
+}
+#firstname{
+    position: absolute;
+    display: inline-block;
+    top: 50px;
+    margin-left: 800px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px #333;
+}
+#lastname{
+    position: absolute;
+    display: inline-block;
+    top:100px;
+    margin-left: 800px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px #333;
+}
+#email{
+    position: absolute;
+    display: inline-block;
+    top: 150px;
+    margin-left: 800px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px #333;
+}
+#write{
+    position: absolute;
+    display: inline-block;
+    top: 200px;
+    margin-left: 800px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 200px;
+    box-shadow: 2px 2px 2px 2px #333;
+}
+.subemai{
+    position: absolute;
+    display: inline-block;
+    top: 450px;
+    margin-left: 800px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #333;
+}
+.Links{
+    display: inline-block;
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: -330px;
+}
+.aahome{
+    color: black;
+    font-size: 40px;
+}
